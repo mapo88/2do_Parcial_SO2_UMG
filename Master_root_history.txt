@@ -1,0 +1,279 @@
+    1  eit
+    2  exit
+    3  wget https://www.virtualbox.org/download/oracle_vbox.asc
+    4  rpm --import oracle_vbox.asc
+    5  wget http://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo -O /etc/yum.repos.d/virtualbox.repo
+    6  cd /etc
+    7  cd yum
+    8  ls
+    9  cd..
+   10  cd.
+   11  cd /etc
+   12  ls
+   13  cd yum.repos.d
+   14  ls
+   15  virtualbox.repo
+   16  edit virtualbox.repo
+   17  exit
+   18  exit
+   19  exit
+   20  exit
+   21  systemctl enable docker
+   22  systemctl restart docker
+   23  exit
+   24  cat /etc/sysconfig/kubelet
+   25  cat < /etc/sysconfig/kubelet
+   26  cat < /etc/sysconfig/kubelet/
+   27  cat < /etc/sysconfig/kubelet
+   28  cat < /etc/sysconfig/kubelet
+   29  cat < etc/sysconfig/kubelet
+   30  cat << /etc/sysconfig/kubelet
+   31  cd var
+   32  cd /var
+   33  cd /lib
+   34  ls
+   35  cd /kubelet
+   36  cd etc
+   37  cd /etc
+   38  cd /default
+   39  sudo systemctl daemon-reload
+   40  sudo systemctl restart kubelet
+   41  kubeadm -v
+   42  kubeadm --v
+   43  sudo apt-get update && apt-get upgrade
+   44  sudo yum update
+   45  kubeadm init[B
+   46  Galaxia1kubeadm init
+   47  cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+   48  [kubernetes]
+   49  name=kubernetes
+   50  baseurl=https://pacages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+   51  enabled=1
+   52  gpgcheck=1
+   53  repo_gpgcheck=1
+   54  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+   55  EOF
+   56  mysql
+   57  sudo mysql
+   58  abrt-cli list --since 1583382136
+   59  mysql -u root
+   60  mysql -u root -p
+   61  exit
+   62  /sbin/vboxconfig
+   63  exit
+   64  yum remove docker 
+   65  yum remove docker
+   66  yum remove docker 
+   67  yum remove docker-client
+   68  yum remove docker-common
+   69  yum remove docker-latest
+   70  netstat -na
+   71  netstat -na | grep 80
+   72  clear
+   73  netstat -na | grep 80
+   74  sudo add-apt-repository universe
+   75  sudo yum install putty
+   76  clear
+   77  java -v
+   78  java -version
+   79  chmod 700 netbeans-8.0.1-linux.sh
+   80  exit
+   81  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+   82  sudo yum install docker-ce -y
+   83  /sbin/vbconfig
+   84  exit
+   85  mkdir /root/module-signing
+   86  cd /root/module-signing
+   87  openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=YOUR_NAME/"
+   88  chmod 600 MOK.priv
+   89  mokutil --import /root/module-signing/MOK.der
+   90  sudo mokutil --import /root/module-signing/MOK.der
+   91  sudo mokutil --reset
+   92  exit
+   93  mokutil --import MOK.der
+   94  virtualbox
+   95  virtualbox
+   96  sudo /sbin/vboxconfig
+   97  cd /etc/pki/
+   98  mkdir elrepo
+   99  cd elrepo/
+  100  cp /var/tmp/SECURE-BOOT-KEY-elrepo.org.der /etc/pki/elrepo/
+  101  sudo cp /var/tmp/SECURE-BOOT-KEY-elrepo.org.der /etc/pki/elrepo/
+  102  sudo mokutil --import /var/tmp/SECURE-BOOT-KEY-elrepo.org.der
+  103  mokutil --import /var/tmp/SECURE-BOOT-KEY-elrepo.org.der
+  104  systemctl firewall status
+  105  systemctl firewalld status
+  106  firewall-cmd --list-services
+  107  firewall-cmd --list-all
+  108  systemctl stop firewalld
+  109  ifconfig
+  110  ping 192.168.0.7
+  111  firewall-cmd --zone=public --add-port=22/tcp --permanent
+  112  systemctl start firewalld
+  113  firewall-cmd --zone=public --add-port=22/tcp --permanent
+  114  firewall-cmd --reload
+  115  netstat -antlp | grep LISTEN
+  116  firewall-cmd --list-all
+  117  firewall-cmd --zone=public --remove-port=22/tcp --permanent
+  118  firewall-cmd --reload
+  119  yum install -y openssh-server openssh-clients
+  120  systemctl start sshd
+  121  systemctl status sshd.service
+  122  systemctl stop sshd
+  123  systemctl start sshd
+  124  systemctl enable sshd
+  125  systemctl status sshd.service
+  126  journalctl -xe
+  127  cat /etc/selinux/config
+  128  setenforce 0
+  129  systemctl start sshd.service
+  130  journalctl -xe | grep -i ssh
+  131  cd /etc/ssh/
+  132  ls -l
+  133  chmod 640 *_key
+  134  systemctl start sshd.service
+  135  systemctl status sshd.service
+  136  virtualbox
+  137  mkdir /root/module-signing
+  138  cd /root/module-signing
+  139  ls
+  140  rm *
+  141  ls
+  142  openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=MAHC/"
+  143  ls
+  144  cat MOK.priv
+  145  cat MOK.der
+  146  openssl x509 -in MOK.der -noout
+  147  openssl x509 -in MOK.der -noout -text
+  148  ls
+  149  less MOK.der 
+  150  openssl x509 -in MOK.der -noout -text -inform der
+  151  openssl rsa -in MOK.priv 
+  152  openssl rsa -in MOK.priv | openssl base64 -d
+  153  PuTTYPuTTYPuTTYPuTTYPuTTY
+  154  ls
+  155  chmod 600 MOK.priv
+  156  ls -l
+  157  ls -l ../
+  158  ls -l /dev/
+  159  ls -l
+  160  mokutil --import /root/module-signing/MOK.der
+  161  abrt-cli list --since 1588103946
+  162  ls
+  163  cd module-signing/
+  164  ls
+  165  mokutil --import /root/module-signing/MOK.der
+  166  mokutil --list-new
+  167  grub2-install --uefi-secure-boot
+  168  mokutil --list-enrolled
+  169  mokutil --import MOK.der 
+  170  ip a
+  171  docker ls
+  172  docker -ls
+  173  docker info
+  174  exit
+  175  cd /
+  176  ls
+  177  hostname
+  178  systemctl poweroff
+  179  sudo docker node ls
+  180  sudo docker info
+  181  sudo docker node ls
+  182  docker node promote node1
+  183  docker node ls
+  184  docker node demote node1
+  185  sudo docker node demote node1
+  186  docker node ls
+  187  docker node rm node1
+  188  docker node ls
+  189  ping 192.168.0.12
+  190  docker node ls
+  191  process list
+  192  docker process list
+  193  docker ps
+  194  ssh 192.168.0.11
+  195  docker node ls
+  196  docker node rm node2
+  197  docker node ls
+  198  docker node promote node2
+  199  docker node ls
+  200  ssh 192.168.0.12
+  201  docker ps
+  202  docker node rm node2
+  203  docker demote node2
+  204  docker node demote node2
+  205  docker node ls
+  206  docker node rm node2
+  207  docker node ls
+  208  docker node promote  node2
+  209  docker node ls
+  210  docker swarm join-token manager
+  211  docker swarm join-token worker
+  212  docker node rm node2
+  213  docker node ls
+  214  docker swarm join     --token SWMTKN-1-0jxayusu28lnqgy3rad7rn1jeozjanvhpldfizw25mkmjdu2r6-8l1j3se8lj57dk4wdu6jo1p3w \
+  215  docker node ls
+  216  docker node rm node2
+  217  docker node ls
+  218  docker node promote node2
+  219  docker node ls
+  220  docker node demote node2
+  221  docker node promote node1
+  222  docker node ls
+  223  docker node rm node2
+  224  docker node rm node1
+  225  docker node ls
+  226  docker swarm join-token manager
+  227  docker swarm join     --token SWMTKN-1-0jxayusu28lnqgy3rad7rn1jeozjanvhpldfizw25mkmjdu2r6-8l1j3se8lj57dk4wdu6jo1p3w \
+  228  docker node ls
+  229  docker node rm node2
+  230  docker node rm node2 docker swarm join     --token SWMTKN-1-0jxayusu28lnqgy3rad7rn1jeozjanvhpldfizw25mkmjdu2r6-8l1j3se8lj57dk4wdu6jo1p3w     192.168.0.6:2377
+  231  docker node ls
+  232  docker node rm kpoup31k0sv3w1egg0btptnwb
+  233  docker node rm uwdfmtrear8ceonkq1z9kv3re
+  234  docker node ls
+  235  docker node rm ajcdur2bccubmpp8o4582b3zs
+  236  docker node rm qlpvjongetsy7yppzqqqtuctn
+  237  docker node ls
+  238  cd /etc/systemd/system
+  239  ls
+  240  ps -fwwu $USER
+  241  ps aux| grep docker
+  242  ip a
+  243  ip a | grep inet
+  244  ps aux| grep docker
+  245  docker nodes list
+  246  docker node list
+  247  yum install nc
+  248  nc -zv 192.168.0.12 2377
+  249  firewall-cmd --list
+  250  firewall-cmd --list-all
+  251  netstat -antlp | grep LISTEN | grep docker
+  252  nc -zv 192.168.0.12 2377
+  253  docker list ps
+  254  docker node list
+  255  docker node promote node2
+  256  docker node list
+  257  docker node rm node2
+  258  docker node list
+  259  systecmtl reboot
+  260  systemctl reboot
+  261  docker node list
+  262  docker init --force-new-cluster
+  263  docker swarm init --force-new-cluster
+  264  docker node list
+  265  docker node rm node2
+  266  docker node list
+  267  docker node demote node2
+  268  docker node list
+  269  docker node promote node2
+  270  docker node list
+  271  exit
+  272  history
+  273  w
+  274  chown mapo. /home/mapo/Desktop/root.history.txt
+  275  clear
+  276  history
+  277  history | grep firewall
+  278  docker node ls
+  279  history > /home/mapo/Documents/root_history.txt

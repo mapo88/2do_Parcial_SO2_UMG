@@ -1,0 +1,708 @@
+    1  hostname
+    2  ipconfi
+    3  ipconfig
+    4  ifconfigo
+    5  ifconfig
+    6  exit
+    7  rpm -qa | grep -E '^open[jre|jdk]|j[re|dk]'
+    8  rpm -ivh jdk-8u25-linux-x64.rpm
+    9  yum install -y wget
+   10  sudo
+   11  sudo yum install -y wget
+   12  java -version
+   13  wget http://download.netbeans.org/netbeans/8.0.1/final/bundles/netbeans-8.0.1-linux.sh
+   14  chmod 700 netbeans-8.0.1-linux.sh
+   15  ./netbeans-8.0.1-linux.sh
+   16  aptget openssh-client
+   17  apt -get openssh-client
+   18  yum instal gcc gcc-c++ bison flex libpcap-devel qt-devel gtk3-devel rpm-build libtool c-ares-devel qt5-qtbase-devel qt5-qtmultimedia-develqt5-linguist desktop-file-utils
+   19  yum install gcc gcc-c++ bison flex libpcap-devel qt-devel gtk3-devel rpm-build libtool c-ares-devel qt5-qtbase-devel qt5-qtmultimedia-develqt5-linguist desktop-file-utils
+   20  su yum install gcc gcc-c++ bison flex libpcap-devel qt-devel gtk3-devel rpm-build libtool c-ares-devel qt5-qtbase-devel qt5-qtmultimedia-develqt5-linguist desktop-file-utils
+   21  sudo yum install gcc gcc-c++ bison flex libpcap-devel qt-devel gtk3-devel rpm-build libtool c-ares-devel qt5-qtbase-devel qt5-qtmultimedia-develqt5-linguist desktop-file-utils
+   22  sudo yum install wireshark wireshark-qt
+   23  reboot
+   24  wireshark
+   25  clear
+   26  ṕoweroff
+   27  power off
+   28  poweroff
+   29  man tcpdump
+   30  ifconfig
+   31  clear
+   32  ifconfig
+   33  netstat -nr
+   34  tcpdump -i eth0 'icmp'
+   35  sudo tcpdump -i eth0 'icmp'
+   36  sudo tcpdump -i eth0 'icmp && (src 172.22.37.109 || dst 172.22.37.109 )' -w raw_salida.pcap
+   37  ifconfig
+   38  sudo tcpdump -i virbr0 'icmp && (src 172.22.37.109 || dst 172.22.37.109 )' -w raw_salida.pcap
+   39  poweroff
+   40  sudo su
+   41  sudo yum upgrade
+   42  yum -qa wireshar
+   43  rpm -qa wireshark
+   44  sudo install wireshark wireshark-gnome
+   45  sudo yum install wireshark wireshark-gnome
+   46  sudo yum install xorg-x11-drv-intel
+   47  exit
+   48  sudo yum localinstall google-chrome-stable_current_x86_64.rpm
+   49  google-chrome
+   50  sudo yum update google-chrome-stable
+   51  rpm -qa google
+   52  wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+   53  sudo yum localinstall google-chrome-stable_current_x86_64.rpm
+   54  google-chrome
+   55  poweroff
+   56  yum update -y
+   57  sudo yum update -y
+   58  sudo su
+   59  sudo
+   60  sudo su
+   61  sudo yum install -y VirtualBox-6.0
+   62  systemctl status vboxdrv
+   63  sudo systemctl status vboxdrv
+   64  sudo yum -y install httpd httpd-devel libcurl-devel
+   65  sudo yum -y install ImageMagick ImageMagick-devel git libxml2-devel libxslt-devel gcc bzip2 openssl-devel zlib-devel gdbm-devel ncurses-devel autoconf automake bison gcc-c++ libffi-devel libtool patch readline-devel sqlite-devel glibc-headers glibc-devel libyaml-devel libicu-devel libidn-devel
+   66  sudo yum -update
+   67  sudo -y update
+   68  sudo yum -y update
+   69  sudo yum -y install yum-plugin-fastestmirror
+   70  sudo cat /etc/redhat-release
+   71  cat /etc/os-release
+   72  uname -snr
+   73  sudo -rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+   74  sudo rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+   75  rpm -Uvh https://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+   76  sudo rpm -Uvh https://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+   77  yum repolist
+   78  sudo yum --enablerepo=elrepo-kernel install kernel-ml
+   79  yum repolist all
+   80  clear
+   81  sudo su
+   82  docker search activemq
+   83  /etc/ssh/sshd_config
+   84  sudo /etc/ssh/sshd_config
+   85  passwd
+   86  help passwd
+   87  passwd -help
+   88  passwd /help
+   89  passwd /?
+   90  sudo su
+   91  exit
+   92  sudo setenforce 0
+   93  sed -i 's/SELINUX=permissive/SELINUX=disabled/' /etc/sysconfig/selinux
+   94  sudo sed -i 's/SELINUX=permissive/SELINUX=disabled/' /etc/sysconfig/selinux
+   95  systemctl disable firewalld
+   96  systemctl stop firewalld
+   97  swapoff -a
+   98  sudo swapoff -a
+   99  sed -i 's/^.*swap/#&/' /etc/fstab
+  100  sudo sed -i 's/^.*swap/#&/' /etc/fstab
+  101  iptables -P FORWARD ACCEPT
+  102  sudo iptables -P FORWARD ACCEPT
+  103  sudo cat < /etc/sysctl.d/k8s.conf
+  104  sudocsysctl --system
+  105  sudo sysctl --system
+  106  edit /etc/hosts
+  107  sudo edit /etc/hosts
+  108  sudo su
+  109  vi /etc/hosts
+  110  sudo wget https://download.docker.com/linux/static/stable/x86_64/docker-17.03.2-ce.tgz
+  111  sudo tar -zxvf docker-17.03.2-ce.tgz
+  112  cd docker
+  113  cp * /usr/local/bin
+  114  sudo cp * /usr/local/bin
+  115  cd /etc/systemd/system
+  116  ls
+  117  cd..
+  118  cd.
+  119  cdeit
+  120  exit
+  121  sudo systemctl daemon-reload
+  122  sudo systemctl enable docker
+  123  systemctl daemon-reload
+  124  systemctl enable docker
+  125  systemctl restart docker
+  126  docker -v
+  127  docker --help
+  128  sudo yum -y install openssh-server openssh-clients
+  129  yum -y install openssh-server openssh-clients
+  130  sudo su
+  131  sudo
+  132  sudo yum -y install openssh-server openssh-clients
+  133  sudo systemctl start sshd
+  134  sudo systemctl status sshd
+  135  sudo systemctl enable sshd
+  136  docker
+  137  cd /etc/docker
+  138  cd /etc
+  139  ls
+  140  cd /etc/docker
+  141  sudo service ssh
+  142  sudo systemctl ssh
+  143  sudo nano sshd_config
+  144  sudo systemctl ssh status
+  145  cd home
+  146  cd /home
+  147  ls
+  148  cd mapo
+  149  ls
+  150  cd docker
+  151  ls
+  152  sudo service ssh status
+  153  docker -v
+  154  echo $?
+  155  cat 
+  156  cat < /etc/yum.repos.d/kubernetes.repo
+  157  docker -v
+  158  wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  159  rpm -ivh epel-release-latest-7.noarch.rpm
+  160  sudo rpm -ivh epel-release-latest-7.noarch.rpm
+  161  sudo yum install python-pip
+  162  pip --help
+  163  sudo pip install ansible
+  164  sudo pip install --upgrade pip[A
+  165  sudo pip install ansible
+  166  pip --help
+  167  ssh-copy-id -i ~/.ssh/id_rsa.pub mapo@MAHC-IS
+  168  git clone git@github.com:IBM/ansible-kuernetes-ha-cluster.git
+  169  sudo git clone git@github.com:IBM/ansible-kuernetes-ha-cluster.git
+  170  cd ansible-k8s-ha
+  171  ansible -m ping all -i inventory/mycluster
+  172  lscpu
+  173  ip link
+  174  ifconfig -a
+  175  sudo cat /sys/class/dmi/id/product_uuid
+  176  sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+  177  sudo netstat -na |grep http
+  178  netstat -na |grep http
+  179  lsof -i -P |grep http
+  180  lsof -i -P |grep 55555
+  181  ca /etc/redhat-release
+  182  cat /etc/redhat-release
+  183  net stat -na | grep 55555
+  184  netstat -na | grep 55555
+  185  lsof -i -P | grep http
+  186  iptables-save | grep 55555
+  187  vi /etc/services
+  188  sudo yum install net-tools
+  189  netstat --help
+  190  netstat -na
+  191  netstat -na | grep 55555
+  192  netstat -na |grep 55555
+  193  netstat -na grep 55555
+  194  netstat -na grep 45699
+  195  netstat -na |grep 45699
+  196  lsof -i -P |grep http
+  197  iptables-save |grep 55555
+  198  firewall-cmd --zone=public --add-port=55555/tcp --permanent
+  199  systemctl enable firewalld
+  200  systemctl start firewalld
+  201  firewall-cmd --zone=public --add-port=55555/tcp --permanent
+  202  firewall-cmd reload
+  203  firewall-cmd --reload
+  204  iptables-save |grep 55555
+  205  -A IN_public_allow -p tcp -m tcp --dport 55555 -m conntrack --ctstate NEW -j ACCEPT
+  206  iptables-save |grep 55555 -A IN_public_allow -p tcp -m tcp --dport 55555 -m conntrack --ctstate NEW -j ACCEPT
+  207  netstat -a
+  208  cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+  209  sudo cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+  210  [kubernetes]
+  211  name=Kubernetes
+  212  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+  213  enabled=1
+  214  gpgcheck=1
+  215  repo_gpgcheck=1
+  216  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+  217  EOF
+  218  setenforce 0
+  219  sudo setenforce 0
+  220  sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
+  221  sudo yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
+  222  systemctl enable --now kubelet
+  223  sysctl --system
+  224  sudo sysctl --system
+  225  sudo su
+  226  sudo yum install curl gpg gcc gcc-c++ make patch autoconf automake bison libffi-devel libtool
+  227  sudo yum install readline-devel sqlite-devel zlib-devel openssl-develh readline  glibc-headers glibc-devel
+  228  sudo yum install mariadb-devel zlib libyaml-devel bzip2 iconv-devel ImageMagick ImageMagick-devel
+  229  sudo yum install mariadb-server
+  230  sudo systemctl start mariadb
+  231  sudo systemctl enable mariadb
+  232  sudo systemctl status mariadb
+  233  sudo systemctl status mariadb -l
+  234  sudo mysql_secure_installation
+  235  mysql -u root -p
+  236  sudo mysql
+  237  mysql
+  238  sudo mysql
+  239  mysql -u root -p
+  240  mysql
+  241  mysql -u root -p
+  242  sudo su-
+  243  sudo su -
+  244  sudo yum install epel-release yum-utils pygpgme
+  245  sudo yum-config-manager --enable epel
+  246  sudo yum-config-manager --add-repo https://oss-binaries.phusionpassenger.com/yum/definitions/el-passenger.repo
+  247  sudo yum install ngnix passenger passenger-devel
+  248  sudo useradd -m -U -r -d /opt/redmine redmine
+  249  sudo usermod -a -G redmine nginx
+  250  sudo usermod -a -G ngin redmie[B
+  251  sudo usermod -a -G nginx redmine 
+  252  nginx -v
+  253  sudo yum install epel-release yum-utils pygpgme
+  254  sudo yum-config-manager --enable epel
+  255  date
+  256  sudo subscription-manager register --username $RHN_USERNAME --password $RHN_PASSWORD
+  257  POOL=`sudo subscription-manager list --available --all | sed '/^Pool ID:/!d;s/^.*: *//'`
+  258  sudo yum update -y
+  259  date
+  260  sudo yum install -y pygpgme curl
+  261  sudo curl --fail -sSLo /etc/yum.repos.d/passenger.repo https://oss-binaries.phusionpassenger.com/yum/definitions/el-passenger.repo
+  262  sudo yum install -y nginx passenger || sudo yum-config-manager --enable cr && sudo yum install -y nginx passenger
+  263  nginx -v
+  264  sudo service nginx restart
+  265  sudo /usr/bin/passenger-config validate-install
+  266  sudo /usr/sbin/passenger-memory-stats
+  267  sudo /usr/bin/passenger-config validate-install
+  268  sudo service nginx restart
+  269  sudo /usr/bin/passenger-config validate-install
+  270  sudo /usr/sbin/passenger-memory-stats
+  271  sudo yum install epel-release yum-utils pygpgme
+  272  sudo yum install -y epel-release yum-utils
+  273  sudo yum-config-manager --enable epel
+  274  sudo yum clean all && sudo yum update -y[B
+  275  sudo subscription-manager register --username $RHN_USERNAME --password $RHN_PASSWORD
+  276  sudo yum install -y pygpgme curl
+  277  date
+  278  sudo curl --fail -sSLo /etc/yum.repos.d/passenger.repo https://oss-binaries.phusionpassenger.com/yum/definitions/el-passenger.repo
+  279  sudo yum install -y mod_passenger || sudo yum-config-manager --enable cr && sudo yum install -y mod_passenger
+  280  sudo systemctl restart httpd
+  281  sudo /usr/bin/passenger-config validate-install
+  282  sudo /usr/sbin/passenger-memory-stats
+  283  sudo yum install epel-release yum-utils pygpgme
+  284  sudo yum-config-manager --enable epel
+  285  sudo yum-config-manager --add-repo https://oss-binaries.phusionpassenger.com/yum/definitions/el-passenger.repo
+  286  sudo yum install nginx passenger passenger-devel
+  287  sudo useradd -m -U -r -d /opt/redmine redmine
+  288  sudo usermod -a -G nginx redmine
+  289  sudo chmod 750 /opt/redmine
+  290  sudo su - redmine
+  291  sudo nano /etc/nginx/conf.d/example.com.conf
+  292  sudo nginx -t
+  293  sudo systemctl restart nginx
+  294  sudo nginx -t
+  295  sudo nano /etc/nginx/conf.d/example.com.conf
+  296  sudo /sbin/vboxconfig
+  297  cd /downloads
+  298  cd home
+  299  sudo /sbin/vboxconfig
+  300  sudo su -
+  301  sudo yum -y install httpd httpd-devel libcurl-devel
+  302  sh bitnami-redmine-4.1.0-8-linux-x64-installer.run
+  303  sudo yum -y install ImageMagick ImageMagick-devel git libxml2-devel libxslt-devel gcc bzip2 openssl-devel zlib-devel gdbm-devel ncurses-devel autoconf automake bison gcc-c++ libffi-devel libtool patch readline-devel sqlite-devel glibc-headers glibc-devel libyaml-devel libicu-devel libidn-devel
+  304  sudo yum -y install https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-centos10-10-1.noarch.rpm
+  305  sudo /usr/pgsql-10/bin/postgresql-10-setup initdb
+  306  sudo yum -y install https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-centos10-10-1.noarch.rpm
+  307  sudo yum install epel-release -
+  308  sudo yum update -y && sudo shutdown -r now
+  309  sudo yum -y install https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-centos10-10-1.noarch.rpm
+  310  docker-compose
+  311  docker --help
+  312  ssh -v
+  313  ssh -status
+  314  sudo ssh -statu
+  315  sudo ssh -status
+  316  docker -v
+  317  rpm -q openssh
+  318  sudo nano /etc/ssh/sshd_config
+  319  docker -v
+  320  cd docker
+  321  ls
+  322  docker build -f Dockerfile-ssh -t demossh:1.0
+  323  sudo docker build -f Dockerfile-ssh -t demossh:1.0[B
+  324  sudo nano /etc/ssh/sshd_config
+  325  kubeadm init
+  326  cat < /etc/yum.repos.d/kubernetes.repo
+  327  sudo nano /etc/yum.repos.d/kubernetes.repo
+  328  yum makecache fast && yum install -y kubelet-1.10.0-0 kubeadm-1.10.0-0 kubectl-1.10.0-0
+  329  sudo yum makecache fast && yum install -y kubelet-1.10.0-0 kubeadm-1.10.0-0 kubectl-1.10.0-0
+  330  sudo nano /etc/systemd/system/kebelet.service.d/10-kubeadm.conf
+  331  clear
+  332  kubectl -v
+  333  kubeadm -v
+  334  sudo -i
+  335  sudo yum install wget -y
+  336  sudo wget https://downloads.tableau.com/tssoftware/tableau-server-2018-2-0.x86_64.rpm
+  337  docker --version
+  338  docker run hello-world
+  339  sudo docker run hello-world
+  340  docker image ls
+  341  sudo docker image ls
+  342  sudo apt-get update
+  343  sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
+  344  docker -v
+  345  sudo yum check-update
+  346  curl -fsSL https://get.docker.com | sh
+  347  docker -v
+  348  sudo yum remove docker docker-common docker-selinux docker-engine
+  349  docker -v
+  350  shutdown -restart
+  351  shutdown -r now
+  352  netstat -a | grep :80
+  353  java -version
+  354  cd /opt/
+  355  ls
+  356  sudo yum remove docker
+  357  sudo su '
+  358  sudo su -
+  359  sudo chmod 700 netbeans-8.0.1-linux.sh
+  360  ./netbeans-8.0.1-linux.sh
+  361  sudo yum instal -y wget
+  362  sudo yum -y update
+  363  yum install java-1.8.0-openjdk
+  364  sudo yum install java-1.8.0-openjdk
+  365  java -version
+  366  sudo ./netbeans-8.0.1-linux.sh
+  367  cd /opt/
+  368  sudo wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.tar.gz"
+  369  java -version
+  370  export JAVA_HOME=/opt/jdk1.8.0_242
+  371  export JRE_HOME=/opt/jdk1.8.0_242/jre
+  372  export PATH=$PATH:/opt/jdk1.8.0_242/bin:/opt/jdk1.8.0_242/jre/bin
+  373  export JAVA_HOME=/etc/bashrc/jdk1.8.0_242
+  374  export JRE_HOME=/etc/bashrc/jdk1.8.0_201/jre
+  375  export JRE_HOME=/etc/bashrc/jdk1.8.0_242/jre
+  376  export PATH=$PATH:/etc/bashrc/jdk1.8.0_242/bin:/etc/bashrc/jdk1.8.0_242/jre/bin
+  377  sudo ./netbeans-8.0.1-linux.sh
+  378  cd
+  379  sudo ./netbeans-8.0.1-linux.sh
+  380  sudo yum install java-11-openjdk-devel
+  381  java -version
+  382  java -v
+  383  java -version
+  384  sudo yum install java-11-openjdk
+  385  sudo yum install java-1.8.0-openjdk-devel
+  386  sudo yum install java-1.8.0-openjdk
+  387  sudo ./netbeans-8.0.1-linux.sh
+  388  date
+  389  udo apt-get update
+  390  sudo apt-get update
+  391  sudo wget update
+  392  sudo yum remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-engine
+  393  sudo yum-utils
+  394  sudo yum install -y yum-utils device-apper-persistent-data lvm2
+  395  sudo yum-config-manager --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+  396  sudo yum-config-manager --enable docker-ce-nightly
+  397  sudo yum-config-manager --enable docker-ce-test
+  398  sudo yum install docker-ce docker-ce-cli containerd.io
+  399  sudo yum list docker-ce --showduplicates | sort -r
+  400  sudo yum install docker-ce-19.03.7-3.el7 docker-ce-cli-19.03.7-3.el7 containerd.io
+  401  cd docker
+  402  ls
+  403  docker -v
+  404  docker-ce -v
+  405  cd
+  406  sud systemctl start docker
+  407  sudo systemctl start docker
+  408  sudo docker run hello-world
+  409  cd docker
+  410  cd images ls
+  411  sudo docker run hello-world
+  412  docker images ls
+  413  sudo docker images ls
+  414  sudoc docker-ce -v
+  415  sudo docker-ce -v
+  416  sudo docker -v
+  417  su -
+  418  sudo yum update
+  419  sudo yum –y install epel-release
+  420  sudo yum –y install gcc dkms make qt libgomp patch
+  421  sudo yum –y install kernel-headers kernel-devel binutils glibc-headers glibc-devel font-forge
+  422  sudo cd /etc/yum.repo.d/
+  423  sudo wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
+  424  sudo yum –y install VirtualBox-5.2
+  425  Virtualbox
+  426  virtualbox
+  427  sudo wget https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_x86_64.rpm
+  428  sudo yum –y localinstall vagrant_2.2.2_x86_64.rpm
+  429  sudo -
+  430  cd
+  431  cd..
+  432  cd.
+  433  cd/
+  434  yum -y localinstall vagrant_2.2.2_x86_64.rpm
+  435  sudo yum -y localinstall vagrant_2.2.2_x86_64.rpm
+  436  vagrant ––version
+  437  vagrant --version
+  438  sudo mkdir ~/vagrant-centos-7
+  439  cd ~/vagrant-centos-7
+  440  vagrant box add centos/7
+  441  touch Vagrantfile
+  442  sudo touch Vagrantfile
+  443  vagrant up
+  444  vagrant init centos/7
+  445  cd
+  446  sudo yum-config-manager --add-repo hhtps://download.docker.com/linux/centos/docker-ce.repo
+  447  sudo yum install docker-ce -y
+  448  docker -v
+  449  docker-ce -v
+  450  sudo systemctl enable docker
+  451  ifconfig
+  452  docker swarm init --advertise-addr 192.168.0.6
+  453  sudo docker swarm init --advertise-addr 192.168.0.6
+  454  docker info
+  455  sudo docker info
+  456  docker node ls
+  457  sudo docker node ls
+  458  docker images ls
+  459  sudo docker images ls
+  460  sudo firewall-cmd --permanent --add-port=2376/tcp
+  461  sudo firewall-cmd --permanent --add-port=2377/tcp
+  462  sudo firewall-cmd --permanent --add-port=7946/tcp
+  463  sudo firewall-cmd --permanent --add-port=80/tcp
+  464  sudo firewall-cmd --permanent --add-port=7946/udp
+  465  sudo firewall-cmd --permanent --add-port=4789/udp
+  466  sudo systemctl restart firewalld
+  467  sudo systemctl restart docker
+  468  docker service ls
+  469  sudo docker service ls
+  470  docker info
+  471  sudo docker info
+  472  sudo docker node ls
+  473  sudo yum install virtualbox-dkms
+  474  sudo yum update
+  475  virtualbox -v
+  476  sudo /sbin/vboxconfig
+  477  sudo su-
+  478  sudo su -
+  479  clear
+  480  sudo yum install kernel-devel kernel-headersmake patch gcc
+  481  sudo wget https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo -P /etc/yum.repos.d
+  482  sudo yum install virualbox-5.2
+  483  sudo yum install Virualbox-5.2
+  484  sudo yum install Virtualbox-5.2
+  485  sudo yum install VirtualBox-5.2
+  486  clear
+  487  rpm -qa | grep -i virtualbox
+  488  sudo yum remove VirtualBox-6.0.x86_64
+  489  rpm -qa | grep -i virtualbox
+  490  sudo yum remove VirtualBox-6.0.x86_64
+  491  ps aux | grep virtualbox
+  492  sudo kill 2823
+  493  sudo kill 10035
+  494  sudo kill 10083
+  495  sudo kill 10095
+  496  ps aux | grep virtualbox
+  497  sudo kill 3341
+  498  ps aux | grep virtualbox
+  499  sudo yum remove VirtualBox-6.0.x86_64
+  500  rpm -qa | grep -i virtualbox
+  501  sudo yum install kernel-devel gcc
+  502  rpm --import https://www.virtualbox.org/download/oracle_vbox.asc
+  503  rpm --checksig VirtualBox-5.0-5.0.0_101573_el7-1.x86_64.rpm
+  504  sudo rpm qa | grep -i virtualbox
+  505  rpm -qa | grep -i virtualbox
+  506  sudo yum install kernel-devel gcc
+  507  sudo rpm --import https://www.virtualbox.org/download/oracle_vbox.asc
+  508  clear
+  509  rpm -qa | grep -i virtualbox
+  510  cd /etc/yum.repos.d/
+  511  sudo wget https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo
+  512  sudo yum update
+  513  sudo yum install VirtualBox-6.1
+  514  sudo /sbin/vboxconfig
+  515  clear
+  516  virtualbox
+  517  rpm -qa | grep -i virtualbox
+  518  ps aux | grep virtualbox
+  519  sudo kill 14142
+  520  rpm -qa | grep -i virtualbox
+  521  ps aux | grep virtualbox
+  522  sudo kill 112712
+  523  ps aux | grep virtualbox
+  524  sudo kill 112712
+  525  ps aux | grep virtualbox
+  526  sudo kill 112712
+  527  ps aux | grep virtualbox
+  528  sudo imstall kernel-devel kernel-headers dkms
+  529  sudo install kernel-devel kernel-headers dkms
+  530  sudo rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  531  virtualbox
+  532  sudo /bin/vboxconfig
+  533  sudo /sbin/vboxconfig
+  534  clear
+  535  sudo -i
+  536  sudo mokutil --import /root/module-signing/MOK.der
+  537  sudo -
+  538  sudo su -
+  539  sudo su
+  540  ls
+  541  id
+  542  sudo netstat -antlp |\ grep LISTEN
+  543  sudo netstat -antlp | grep LISTEN
+  544  sudo visudo
+  545  sudo netstat -antlp | grep LISTEN
+  546  sudo /sbin/vboxconfig
+  547  sudo -i
+  548  sudo mokutil --list-enrolled
+  549  sudo -i
+  550  virtualbox
+  551  sudo /sbin/vboxconfig
+  552  top
+  553  ifconfig
+  554  ping 192.168.0.6
+  555  ping 192.168.0.7
+  556  ping 192.168.0.11
+  557  top
+  558  ssh -V
+  559  sudo yum -y instal openssh-server openssh-clients
+  560  sudo yum -y install openssh-server openssh-clients
+  561  sudo systemctl status sshd
+  562  sudo systemctl start sshd
+  563  sudo systemctl enable sshd
+  564  sudo vim /etc/ssh/sshd_config
+  565  service sshd restart
+  566  ifconfig
+  567  docker node ls
+  568  sudo docker node ls
+  569  ifconfig
+  570  ping 192.168.0.11
+  571  ping 192.168.0.12
+  572  docker swarm init --advertise-addr 192.168.0.6
+  573  sudo docker swarm init --advertise-addr 192.168.0.6
+  574  docker info
+  575  sudo docker info
+  576  docker swarm join-token worker
+  577  sudo docker swarm join-token worker
+  578  docker node ls
+  579  sudo docker node ls
+  580  clear
+  581  sudo docker node ls
+  582  sudo docker info
+  583  docker swarm join-token manager
+  584  sudo docker swarm join-token manager
+  585  sudo docker node ls
+  586  docker node promote node1
+  587  sudo docker node promote node1
+  588  sudo docker node ls
+  589  sudo docker info
+  590  sudo docker node ls
+  591  sudo docker node rm node3
+  592  sudo docker node ls
+  593  sudo docker node rm node3
+  594  sudo docker node ls
+  595  docker --help
+  596  docker node --help
+  597  docker node ls
+  598  sudo docker node ls
+  599  docker node promote node2
+  600  sudo docker node promote node2
+  601  sudo docker ps
+  602  docker container ls
+  603  sudo docker container ls
+  604  sudo docker node ls
+  605  sudo docker node demote node2
+  606  docker node rm node2
+  607  sudo docker node rm node2
+  608  docker node ls
+  609  sudo docker node ls
+  610  docker pull portainer/portainer:latest
+  611  sudo docker pull portainer/portainer:latest
+  612  sudo docker volume create portainer_data
+  613  sudo docker run -d --name portainer-01 --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  614  firewall-cmd --permanent --add-port=9000/tcp
+  615  sudo firewall-cmd --permanent --add-port=9000/tcp
+  616  sudo firewall-cmd --reload
+  617  sudo docker run -d -p 9000:9000 --name my_portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
+  618  sudo docker ps
+  619  sudo docker pull portainer/portainer:latest
+  620  sudo docker run -d --name portainer-01 --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  621  sudo docker pull portainer/portainer:latest
+  622  docker volume create portainer_data
+  623  sudo docker volume create portainer_data
+  624  sudo docker run -d --name portainer-01 --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  625  firewall-cmd --permanent --add-port=9000/tcp
+  626  sudo firewall-cmd --reload
+  627  sudo docker node ls
+  628  sudo docker node promote node2
+  629  sudo docker node ls
+  630  sudo docker info
+  631  history
+  632  history -w
+  633  clear
+  634  sudo docker node ls
+  635  sudo docker info
+  636  docker swarm join-token manager
+  637  sudo docker swarm join-token manager
+  638  sudo docker node ls
+  639  docker node promote node1
+  640  sudo docker node promote node1
+  641  sudo docker node ls
+  642  sudo docker info
+  643  sudo docker node ls
+  644  sudo docker node rm node3
+  645  sudo docker node ls
+  646  sudo docker node rm node3
+  647  sudo docker node ls
+  648  docker --help
+  649  docker node --help
+  650  docker node ls
+  651  sudo docker node ls
+  652  docker node promote node2
+  653  sudo docker node promote node2
+  654  sudo docker ps
+  655  docker container ls
+  656  sudo docker container ls
+  657  sudo docker node ls
+  658  sudo docker node demote node2
+  659  docker node rm node2
+  660  sudo docker node rm node2
+  661  docker node ls
+  662  sudo docker node ls
+  663  docker pull portainer/portainer:latest
+  664  sudo docker pull portainer/portainer:latest
+  665  sudo docker volume create portainer_data
+  666  sudo docker run -d --name portainer-01 --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  667  firewall-cmd --permanent --add-port=9000/tcp
+  668  sudo firewall-cmd --permanent --add-port=9000/tcp
+  669  sudo firewall-cmd --reload
+  670  sudo docker run -d -p 9000:9000 --name my_portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
+  671  sudo docker ps
+  672  sudo docker pull portainer/portainer:latest
+  673  sudo docker run -d --name portainer-01 --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  674  sudo docker pull portainer/portainer:latest
+  675  docker volume create portainer_data
+  676  sudo docker volume create portainer_data
+  677  sudo docker run -d --name portainer-01 --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+  678  firewall-cmd --permanent --add-port=9000/tcp
+  679  sudo firewall-cmd --reload
+  680  sudo docker node ls
+  681  sudo docker node promote node2
+  682  sudo docker node ls
+  683  sudo docker info
+  684  history
+  685  history -w
+  686  history -help
+  687  history > history.txt
+  688  ls
+  689  free -h
+  690  vmstat -s -S M
+  691  df --help
+  692  df -h
+  693  process list
+  694  docker ps
+  695  sudo docker ps
+  696  history
+  697  ifconfig
+  698  history > /home/mapo/desktop/user_history.txt
+  699  cd /home/desktop
+  700  cd /home/desktop/
+  701  cd home/desktop/
+  702  cd/
+  703  cd
+  704  cdc
+  705  cd /home/mapo/Documents/
+  706  cd home/desktop/
+  707  cd home/Desktop/
+  708  history > /home/mapo/Documents/user_history.txt
