@@ -1,0 +1,53 @@
+Esclavos:
+1) yum -y update && yu - upgrade
+2) yum -y install openssh-server openssh-clients
+3) systemctl start sshd
+4) systemctl enable sshd
+5) systemctl status sshd
+6) yum install yum-utils
+7) yum-config-manager --ad-repo https://download.docker.com/linux/centos/docker-ce.repo
+8) yum install docker-ce -y
+9) systemctl start docker
+10) systemctl enable docker
+11) docker swarm join --token SWMTKN-1-0jxayusu28lnqgy3rad7rn1jeozjanvhpldfizw25mkmjdu2r6-duc15xmmw1nf13k6cu9lufdy0 192.168.0.6:2377
+12) firewall-cmd --zone=public --add-port=2377/tcp --permanent
+13) firewall-cmd --reload
+
+Master:
+1) yum -y update && yu - upgrade
+2) yum -y install openssh-server openssh-clients
+3) systemctl start sshd
+4) systemctl enable sshd
+5) systemctl status sshd
+6) yum install yum-utils
+7) yum-config-manager --ad-repo https://download.docker.com/linux/centos/docker-ce.repo
+8) yum install docker-ce -y
+9) systemctl start docker
+10) systemctl enable docker
+11) docker swarm init --advertise-addr 192.168.0.6
+12) firewall-cmd --zone=public --add-port=2377/tcp --permanent
+13) firewall-cmd --reload
+
+Administracion de nodos:
+1) docker node promote node2
+2) docker node demote node2
+
+Instalacion de Portainer desde el Maestro:
+1) docker pull portainer/portainer:latest
+2) docker volume create portainer_data
+3) docker run -d \
+> --name portainer-01 \
+> --restart unless-stopped \
+> -p 9000:9000 \
+> -v /var/run/docker.sock:/var/run/docker.sock \
+> -v portainer_data:/data \
+> portainer/portainer
+4) firewall-cmd --permanent --add-port=9000/tcp
+5) firewall-cmd --reload
+En un explorador:
+6) http://DOCKER_SERVER_IP:9000/
+7) crear un usuario
+8) Seleccionar ambiente local de Docker y click en "Conectar"
+9) Click en "local"
+10) Click en panel izquierdo la opcion de "Swarm"
+11) Dashboard listo
